@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3d4645d1f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <form class="form">
+      <label for="firstname">First name:</label>
+      <input name="firstname" type="text" id="firstname" required />
+
+      <label for="lastname">Last name: </label>
+      <input name="lastname" type="text" id="lastname" />
+
+      <label for="email">Email: </label>
+      <input name="email" type="email" id="email" required />
+
+      
+        <label for="pass1">Password: </label>
+        <div class="password1">
+            <input name="password" type="password" id="pass1" required />
+            <i class="fa-regular fa-eye"></i>
+        </div>
+
+      
+        <label for="pass2">Password wiederholen: </label>
+        <div class="password2">
+            <input name="password" type="password" id="pass2" required />
+            <i class="fa-regular fa-eye"></i>
+        </div>
+
+      <label for="birthday">Geburtsdatum</label>
+      <input id="birthday" type="date" required />
+
+      <label>Geschlecht</label>
+      <div>
+        <label class="geschlecht1" for="männlich">
+          <input type="radio" name="geschlecht" id="männlich" value="männl" />
+          männlich
+        </label>
+
+        <label class="geschlecht2" for="weiblich">
+          <input type="radio" name="geschlecht" id="weiblich" value="weibl" />
+          weiblich
+        </label>
+      </div>
+
+      <label for="comments">Kleine Vorstellung: </label>
+      <textarea
+        name="comments"
+        id="comments"
+        placeholder="Kleine Vorstellung"
+      ></textarea>
+
+      <div class="zustimmung">
+        <label id="AGB" for="AGB"
+          ><a href="#">Zustimmung AGB (Allgemeine Geschäftsbedingungen)</a>
+        </label>
+        <input name="AGB" type="checkbox" id="AGB" required />
+        <label id="datenschutz" for="Datenschutz"
+          ><a href="#">Zustimmung Datenschutz</a>
+        </label>
+        <input name="Datenschutz" type="checkbox" id="Datenschutz" required />
+    </div>
+    <input id="reset" type="reset" value="reset" />
+    <input id="submit" type="submit" value="Speichern" />
+    </form>
+  </body>
+</html>

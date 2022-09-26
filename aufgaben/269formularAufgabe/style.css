@@ -1,0 +1,102 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 183, 183);
+  }
+  div{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  div .geschlecht1{
+    margin-right: 50px;
+  }
+  
+  
+  .zustimmung{
+    margin-top: 20px;
+    width: 40%;
+  }
+  
+  label {
+      margin-top: 20px;
+      color: darkcyan;
+      font-size: 24px;  justify-content: flex-start;
+    }
+  
+    textarea {
+      width: 40%;
+      height: 140px;
+      margin-left: 10px;
+    }
+  
+   input, label {
+    display: block;
+    width: 40%;
+    margin-left: 10px;
+    height: 30px;
+  }
+  
+  
+  .geschlecht{
+    
+      display: inline block ;
+  }
+  
+  #datenschutz a{
+    text-decoration: none;
+  }
+
+  #AGB a{
+    text-decoration: none;
+  }
+
+#reset {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#submit {
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.password1 {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.password1 input{
+    width: 100%;
+}
+
+.password2 {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.password2 input{
+    width: 100%;
+}
+
+.password1 i{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: gray;
+}
+
+.password2 i{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: gray;
+}
