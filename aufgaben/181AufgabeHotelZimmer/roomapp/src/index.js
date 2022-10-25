@@ -8,7 +8,7 @@ import Room from './component/Room';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Room />
+    <App />
   </React.StrictMode>
 );
 

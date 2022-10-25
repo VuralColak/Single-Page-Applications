@@ -19,7 +19,7 @@ export default function Button({roomNr}) {
 
   return (
     <div>
-        <button onClick={clickHandler}>Check In</button>
+        <button onClick={clickHandler}>Check-In / Check-Out</button>
     </div>
   )
 }

@@ -29,6 +29,7 @@ const roomInfos = RoomDatas.map((room, i) => {
     </div>
   );
 });
+
 function Room() {
   return (
     <main>
